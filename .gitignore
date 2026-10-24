@@ -1,0 +1,27 @@
+# Segredos e configuração local — NUNCA versionar
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+termos_proibidos.txt
+
+# Ambientes e caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+
+# IDEs
+.idea/
+.vscode/
+
+# Saídas geradas e logs
+output/
+logs/
+*.log
+
+# Dados reais nunca entram aqui — só dados fictícios em exemplos/
+dados_reais/
